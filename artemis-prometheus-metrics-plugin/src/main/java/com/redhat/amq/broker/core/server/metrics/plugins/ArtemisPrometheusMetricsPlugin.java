@@ -38,6 +38,7 @@ public class ArtemisPrometheusMetricsPlugin implements ActiveMQMetricsPlugin {
          this.meterRegistry = new PrometheusMeterRegistry(PrometheusConfig.DEFAULT);
       }
 
+      this.meterRegistry.config().commonTags("application", "ccd-artemis-broker");
       return this;
    }
 
