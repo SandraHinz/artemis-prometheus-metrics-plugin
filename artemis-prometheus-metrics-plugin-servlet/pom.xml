@@ -24,7 +24,7 @@ under the License.
    <parent>
       <groupId>com.redhat.amq-broker</groupId>
       <artifactId>artemis-prometheus-metrics-pom</artifactId>
-      <version>3.2.0</version>
+      <version>3.2.1</version>
    </parent>
 
    <artifactId>artemis-prometheus-metrics-plugin-servlet</artifactId>
@@ -59,8 +59,8 @@ under the License.
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <configuration>
-               <source>11</source>
-               <target>11</target>
+               <source>17</source>
+               <target>17</target>
             </configuration>
          </plugin>
       </plugins>
